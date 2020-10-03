@@ -42,7 +42,7 @@ HornInfo.dropDown = () => {
   hornArrary.forEach((value) => tempArray.push(value.keyword));
 
   //removed (words)from in between temparry and closing parenthesis
-  (tempArray).forEach(value => {
+  (tempArray()).forEach(value => {
     const $newOptionTag = $('option');
     $newOptionTag.setAttribute('value', 'images');
     $('select').append($newOptionTag);
@@ -61,6 +61,7 @@ HornInfo.dropDown = () => {
   }
 
 };
+
 /*
 new HornInfo('http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg',
   'UniWhal', 'A unicorn and a narwhal nuzzling their horns', 'narwhal', 1);
