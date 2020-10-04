@@ -2,7 +2,9 @@
 
 const hornArrary = [];
 
-$.ajax('../data/page-1.json').then(data => {
+
+
+$.ajax('../data/page-1.json,').then(data => {
   console.log('data:  ', data);
   data.forEach(object => new HornInfo(object.image_url, object.title, object.description, object.keyword, object.horns));
   console.log(hornArrary);

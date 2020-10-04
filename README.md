@@ -35,13 +35,12 @@ Actual time needed to complete: 1 hour
 
 Number and name of feature: Feature 1: Pagination
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 2
 
-Start time: _____
+Start time: 3
 
-Finish time: _____
-
-Actual time needed to complete: _____
+Finish time: 530
+Actual time needed to complete: 2.5
 --------------------------------------------
 
 Number and name of feature: Feature 2: Templating
@@ -56,23 +55,23 @@ Actual time needed to complete: two hours with breaks in betweeen to do other ta
 --------------------------------------------
 
 Number and name of feature: Feature 3: Styling with Flexbox
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1
 
-Start time: _____
+Start time: 5
 
-Finish time: _____
+Finish time: 6
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1 hr
 --------------------------------------------
 
 
 Number and name of feature: Feature 4: Sort the images
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 2
 
-Start time: _____
+Start time: 6
 
-Finish time: _____
+Finish time: 8
 
 Actual time needed to complete: _____
 
