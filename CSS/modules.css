@@ -20,7 +20,9 @@ section {
   width: 120px;
   margin: 5px;
   border: 2px solid black;
+
   /* flex-wrap: wrap; */
+
 }
 
 .pagination {
@@ -42,6 +44,7 @@ section {
   color: white;
   border: 1px solid #4CAF50;
 }
+
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
 
@@ -90,3 +93,4 @@ section {
   order: 3;
   height: 500px;
 }
+

@@ -18,16 +18,32 @@ function pageTwo() {
   })
 }
 
-$.ajax('../data/page-1.json').then(data => {
-  data.forEach(object => {
-    let horn = new HornInfo(object.image_url, object.title, object.description, object.keyword, object.horns, 1);
+
+
+
+$.ajax('../data/page-1.json,').then(data => {
+  console.log('data:  ', data);
+  data.forEach(object => new HornInfo(object.image_url, object.title, object.description, object.keyword, object.horns));
+  console.log(hornArrary);
+  hornArrary.forEach($HornTemplate => {
+    let $newHorn = document.createElement('img');
+    let hornPath = $HornTemplate.imgUrl;
+    let phototemplate = document.getElementById('photo_template');
+    $newHorn.setAttribute('src', hornPath);
+    //console.log($newHorn);
+    phototemplate.append($newHorn);
+
   });
   render(1);
   HornInfo.dropDown(data);
 })
 
 
-function HornInfo(image_url, title, description, keyword, horns, page) {
+
+
+function HornInfo(image_url,title,description,keyword,horns) {
+  console.log(title);
+
   this.imgUrl = image_url;
   this.title = title;
   this.description = description;
@@ -76,15 +92,18 @@ function render(pageNumber) {
   });
 }
 
+
 HornInfo.dropDown = () => {
   let tempArray = [];
   hornArrary.forEach((value) => tempArray.push(value.keyword));
+
 
   (hornArrary).forEach(value => {
     const $newOptionTag = $('<option></option>');
     $newOptionTag.attr('class', value.keyword);
     $newOptionTag.text(value.keyword);
     $('#s1').append($newOptionTag);
+
   });
 
   hornNumber.forEach(number => {
@@ -98,6 +117,9 @@ let keyword = [];
 
 function filterHorns(Event) {
   $('section').hide();
+
+
+};
 
   hornArrary.forEach((object) => {
     if (Event.target.value === object.keyword) {
@@ -134,3 +156,4 @@ $('.page1').on('click', pageOne);
 $('.page2').on('click', pageTwo);
 $('#s1').on('change', filterHorns);
 $('#s2').on('change', sortByHorn)
+

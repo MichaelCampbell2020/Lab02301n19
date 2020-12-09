@@ -19,6 +19,7 @@ Start time: 7:00
 Finish time: 8:35
 
 Actual time needed to complete: 1.5 hour
+--------------------------------------------
 
 --------------------------------------------
 
@@ -74,6 +75,8 @@ Start time: 6
 
 Finish time: 8
 
+
 Actual time needed to complete: 2
 
 Actual time needed to complete: 1 hour
+
