@@ -21,6 +21,8 @@ Finish time: 8:35
 Actual time needed to complete: 1.5 hour
 --------------------------------------------
 
+--------------------------------------------
+
 Number and name of feature: #3 Style the application
 Estimate of time needed to complete: 1 hour
 
@@ -73,5 +75,8 @@ Start time: 6
 
 Finish time: 8
 
-Actual time needed to complete: _____
+
+Actual time needed to complete: 2
+
+Actual time needed to complete: 1 hour
 

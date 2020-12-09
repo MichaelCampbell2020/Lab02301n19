@@ -1,10 +1,12 @@
 body {
+  width: 960px;
   text-align: center;
-  margin: 10px;
+  margin: auto;
 }
 
 main{
   display: flex;
+
 }
 
 #left{
@@ -20,5 +22,6 @@ main{
 #right{
   order: 3;
   height: 500px;
+
 }
 
